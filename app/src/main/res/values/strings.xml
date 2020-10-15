@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Unit Conversion Calculator</string>
+    <string name="feet_to_meters">Feet to Meters</string>
+    <string name="inches_to_cm">Inches to Centimeters</string>
+    <string name="mile_item_miles_km">Miles to Kilometers</string>
+    <string name="stringlabel_feet">Feet</string>
+    <string name="stringlabel_meters">Meters</string>
+    <string name="stringlabel_inches">Inches</string>
+    <string name="stringlabel_centimeters">Centimeters</string>
+    <string name="stringlabel_miles">Miles</string>
+    <string name="stringlabel_kilometers">Kilometers</string>
+    <string name="output_value">0.0</string>
 </resources>
