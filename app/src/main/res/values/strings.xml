@@ -9,5 +9,5 @@
     <string name="stringlabel_centimeters">Centimeters</string>
     <string name="stringlabel_miles">Miles</string>
     <string name="stringlabel_kilometers">Kilometers</string>
-    <string name="output_value">0.0</string>
+    <string name="output_value">0</string>
 </resources>
