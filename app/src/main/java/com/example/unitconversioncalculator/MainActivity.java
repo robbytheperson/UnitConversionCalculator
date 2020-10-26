@@ -116,16 +116,14 @@ public class MainActivity extends AppCompatActivity {
                 topLabel.setText(Conversion.labelNames[1 + switchSimulator]);
                 bottomLabel.setText(Conversion.labelNames[switchSimulator]);
                 conv.setConvNumber(conv.getConvNumber() + 1);
-                output.setText(df.format(conv.calculate()));
-                isDefault = !isDefault;
             }
             else {
                 topLabel.setText(Conversion.labelNames[switchSimulator]);
                 bottomLabel.setText(Conversion.labelNames[1 + switchSimulator]);
                 conv.setConvNumber(conv.getConvNumber() - 1);
-                output.setText(df.format(conv.calculate()));
-                isDefault = !isDefault;
             }
+            output.setText(df.format(conv.calculate()));
+            isDefault = !isDefault;
         }
 
 
